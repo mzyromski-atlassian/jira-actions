@@ -25,6 +25,10 @@ configurations.all {
                 "commons-codec:commons-codec" -> useVersion("1.10")
                 "org.jetbrains:annotations" -> useVersion("13.0")
                 "org.slf4j:slf4j-api" -> useVersion("1.7.25")
+                "org.testcontainers:testcontainers" -> useVersion("1.15.1")
+                "org.testcontainers:selenium" -> useVersion("1.15.1")
+                // TODO add a comment
+                "net.java.dev.jna:jna" -> useVersion("5.5.0")
             }
             when (requested.group) {
                 "org.jetbrains.kotlin" -> useVersion(kotlinVersion)
@@ -57,6 +61,8 @@ dependencies {
     testCompile("com.atlassian.performance.tools:io:[1.0.0,2.0.0)")
     testCompile("com.atlassian.performance.tools:docker-infrastructure:0.3.3")
     testCompile("junit:junit:4.12")
+    // TODO add a comment
+    testCompile("org.testcontainers:testcontainers:1.15.1")
 }
 
 tasks.test {
