@@ -26,6 +26,9 @@ Dropping a requirement of a major version of a dependency is a new contract.
 ## [Unreleased]
 [Unreleased]: https://github.com/atlassian/jira-actions/compare/release-3.13.4...master
 
+### Added
+- Make `IssueNavigatorPage` open for extension.
+
 ## [3.13.4] - 2020-11-05
 [3.13.4]: https://github.com/atlassian/jira-actions/compare/release-3.13.3...release-3.13.4
 
